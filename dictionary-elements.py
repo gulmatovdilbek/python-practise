@@ -43,9 +43,9 @@ for mahsulot in mahsulotlar.keys():
 
 # 4. in operatori
 # 1. listda in operatori element mavjudligini tekshiradi
-# fruits = ['olma', 'anor', 'uzum', 'shaftoli']
-# print('olma' in fruits)  # True
-# print('banan' in fruits)  # False
+fruits = ['olma', 'anor', 'uzum', 'shaftoli']
+print('olma' in fruits)  # True
+print('banan' in fruits)  # False
 
 fruit = input("Qaysi meva yoqadi? ")
 if fruit in fruits:
@@ -63,10 +63,11 @@ for mahsulot in mahsulotlar:
     if mahsulot in bozorlik:
         print(f"{mahsulot.title()} {mahsulotlar[mahsulot]} so`m")
 
-# print(sorted(mahsulotlar.keys()))  
-# print("Do`konimizdagi mahsulotlar:")
-# for mahsulot in sorted(mahsulotlar.keys()):
-#     print(mahsulot.title())print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+print(sorted(mahsulotlar.keys()))  
+print("Do`konimizdagi mahsulotlar:")
+for mahsulot in sorted(mahsulotlar.keys()):
+    print(mahsulot.title())
+    print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 telefonlar = {
     'ali': 'iPhone 17 pro max',
     'vali': 'Samsung Galaxy S30',
